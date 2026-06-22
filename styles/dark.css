@@ -10,4 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-dark.png);
+  --main_color: #DB00FF;
+  --accent-color:  #FF0070;
+  --text_decor_color: #000028;
+  --text_color: #F1B2CE;
+  --bg_color: #000028;
 }
