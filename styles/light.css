@@ -15,6 +15,9 @@
   --text_decor_color: #353430;
   --text_color: #353430;
   --bg_color:#FFF1F7;
+  --border_hover:rgba(50, 49, 45, 0.4);
+  --border_focus: var(--text_color);
+  --rec_color: transparent;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,5 +28,8 @@
     --text_decor_color: #353430;
     --text_color: #353430;
     --bg_color:#FFF1F7;
+    --border_hover:rgba(50, 49, 45, 0.4);
+    --border_focus: var(--text_color);
+    --rec_color: transparent;
   }
 }

@@ -15,4 +15,7 @@
   --text_decor_color: #000028;
   --text_color: #F1B2CE;
   --bg_color: #000028;
+  --border_hover: rgba(255, 0, 112, 0.4);
+  --border_focus: var(--accent-color);
+  --rec_color:var(--accent-color);
 }
