@@ -17,7 +17,7 @@
   justify-self: center;
   align-self: center;
   display: grid;
-  grid-template-rows: 1fr min-content 1fr; 
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 .decorated-zone {
@@ -26,7 +26,7 @@
   position: relative;
 }
 
-.decorated-zone::before{
+.decorated-zone::before {
   content: "";
   position: absolute;
   top: 10px;
@@ -37,7 +37,7 @@
   border-top: 1px solid var(--accent-color);
 }
 
-.decorated-zone::after{
+.decorated-zone::after {
   content: "";
   position: absolute;
   bottom: 10px;
@@ -68,13 +68,13 @@
 }
 
 .header__theme-menu {
-  grid-row: 1/2; 
+  grid-row: 1/2;
   justify-self: end;
   align-self: center;
   padding-top: 10px;
 }
 
-.header__theme-menu-list{
+.header__theme-menu-list {
   display: grid;
   color: var(--accent-color, #FF0070);
   font-size: var(--text, 18px);
@@ -92,7 +92,7 @@
   outline: 1px solid var(--border_hover);
 }
 
-.header__theme-menu-button:focus-visible{
+.header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--border_focus);
 }
@@ -206,7 +206,7 @@
   width: 100vw;
   justify-self: center;
   align-self: center;
-  grid-template-rows: 1fr min-content 1fr; 
+  grid-template-rows: 1fr min-content 1fr;
   font-family: var(--font, monospace);
   margin-top: 40px;
 }
@@ -224,7 +224,7 @@
 }
 
 @media (width >= 768px) {
-  .header { 
+  .header {
     min-height: 1024px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -234,12 +234,12 @@
     max-width: 728px;
   }
 
-  .decorated-zone::before{
+  .decorated-zone::before {
     content: "";
     top: 20px;
   }
 
-  .decorated-zone::after{
+  .decorated-zone::after {
     content: "";
     bottom: 20px;
   }
@@ -279,7 +279,7 @@
     margin-top: 60px;
   }
 
-  .content{
+  .content {
     grid-template-columns: 236px 1fr 1fr;
     grid-template-rows: repeat(2, auto);
     gap: 20px;
@@ -357,7 +357,7 @@
 }
 
 @media (width >= 1024px) {
-  .header { 
+  .header {
     min-height: 768px;
     padding: 20px 0;
   }
@@ -380,7 +380,7 @@
     padding-top: 0px;
   }
 
-  .header__theme-menu-list{ 
+  .header__theme-menu-list {
     grid-auto-columns: max-content;
     grid-auto-flow: column;
     gap: 15px;
@@ -396,7 +396,7 @@
     gap: 80px;
   }
 
-  .content{
+  .content {
     grid-template-columns: 315px 1fr 1fr;
   }
 
