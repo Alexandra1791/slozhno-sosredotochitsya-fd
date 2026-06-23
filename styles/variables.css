@@ -12,5 +12,6 @@
   --text_bold: 700;
   --text_color: #F1B2CE;
   --bg_color: #000028;
+  --rec_color:var(--accent-color);
 
 }
