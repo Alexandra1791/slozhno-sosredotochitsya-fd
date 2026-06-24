@@ -10,12 +10,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-dark.png);
-  --main_color: #DB00FF;
+  --main-color: #DB00FF;
   --accent-color:  #FF0070;
-  --text_decor_color: #000028;
-  --text_color: #F1B2CE;
-  --bg_color: #000028;
-  --border_hover: rgba(255, 0, 112, 0.4);
-  --border_focus: var(--accent-color);
-  --rec_color:var(--accent-color);
+  --text-decor-color: #000028;
+  --text-color: #F1B2CE;
+  --bg-color: #000028;
+  --border-hover: rgba(255, 0, 112, 0.4);
+  --border-focus: var(--accent-color);
+  --rec-color:var(--accent-color);
 }

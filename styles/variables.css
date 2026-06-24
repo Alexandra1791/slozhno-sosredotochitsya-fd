@@ -5,13 +5,13 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --font:'IBM Plex mono';
-  --main_color: #DB00FF;
+  --main-color: #DB00FF;
   --accent-color:  #FF0070;
-  --text_size: 18px;
-  --text_decor_color: #000028;
-  --text_bold: 700;
-  --text_color: #F1B2CE;
-  --bg_color: #000028;
-  --rec_color:var(--accent-color);
+  --text-size: 18px;
+  --text-decor-color: #000028;
+  --text-bold: 700;
+  --text-color: #F1B2CE;
+  --bg-color: #000028;
+  --rec-color:var(--accent-color);
 
 }
