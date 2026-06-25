@@ -11,25 +11,25 @@
   */
   --bg-image: url(../images/cover-image-light.png);
   --main-color: #FFC2E6;
-  --accent-color: #FF8DCB;
-  --text-decor-color: #353430;
+  --accent-color: #353430;
+  --text-decor-color: #FF8DCB;
   --text-color: #353430;
   --bg-color:#FFF1F7;
   --border-hover:rgba(50, 49, 45, 0.4);
-  --border-focus: var(--text_color);
+  --border-focus: #353430;
   --rec-color: transparent;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url(../images/cover-image-light.png);
-    --main-color: #FFC2E6;
-    --accent-color: #FF8DCB;
-    --text-decor-color: #353430;
-    --text-color: #353430;
-    --bg-color:#FFF1F7;
-    --border-hover:rgba(50, 49, 45, 0.4);
-    --border-focus: var(--text_color);
-    --rec-color: transparent;
+  --bg-image: url(../images/cover-image-light.png);
+  --main-color: #FFC2E6;
+  --accent-color: #353430;
+  --text-decor-color: #FF8DCB;
+  --text-color: #353430;
+  --bg-color:#FFF1F7;
+  --border-hover:rgba(50, 49, 45, 0.4);
+  --border-focus: #353430;
+  --rec-color: transparent;
   }
 }

@@ -5,13 +5,19 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --font:'IBM Plex mono';
+  --text-size: 18px;
+  --text-bold: 700;
+  --small-header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --big-header-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --bg-image: url(../images/cover-image-dark.png);
   --main-color: #DB00FF;
   --accent-color:  #FF0070;
-  --text-size: 18px;
-  --text-decor-color: #000028;
-  --text-bold: 700;
+  --text-decor-color: #FF0070;
+  --title-color: #000028;
   --text-color: #F1B2CE;
   --bg-color: #000028;
-  --rec-color:var(--accent-color);
-
+  --border-hover: rgba(255, 0, 112, 0.4);
+  --border-focus: #FF0070;
+  --rec-color:#FF0070;
+  
 }
