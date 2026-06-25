@@ -243,11 +243,7 @@
   .header { 
     min-height: 1024px; 
     grid-template-columns: repeat(2, 1fr); 
-  } 
- 
-  .decorated-zone { 
-    min-height: 100vh; 
-  } 
+  }  
  
   .decorated-zone::before { 
     content: ""; 
@@ -364,7 +360,7 @@
     margin-top: 35px; 
     font-size: var(--big-header-size); 
   } 
-
+}
  
  
 @media (width >= 1024px) { 
